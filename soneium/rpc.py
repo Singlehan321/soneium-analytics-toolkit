@@ -1,4 +1,4 @@
 from config import SONEIUM_RPC
 
 def connect_soneium():
-    pass
+    return f"Connected to {SONEIUM_RPC}"
