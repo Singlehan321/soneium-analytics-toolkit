@@ -1,3 +1,4 @@
+# Connect to Soneium RPC
 from config import SONEIUM_RPC
 
 def connect_soneium():
