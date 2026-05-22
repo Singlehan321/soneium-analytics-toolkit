@@ -1,3 +1,4 @@
+# Fetch Soneium wallet information
 def get_wallet(address):
     return {
         "network": "Soneium",
