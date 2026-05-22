@@ -1,5 +1,6 @@
 def get_wallet(address):
     return {
         "network": "Soneium",
-        "wallet": address
+        "wallet": address,
+        "balance": "12 SONY"
     }
