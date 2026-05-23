@@ -1,5 +1,3 @@
-from datetime import datetime
+from soneium.rpc import connect_soneium
 
-def log_message(message):
-    with open("logs.txt", "a") as file:
-        file.write(f"{datetime.now()} - {message}\n")
+print(connect_soneium())
